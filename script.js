@@ -64,6 +64,10 @@ function game() {
     }
   }
 
+  selectWinner(playerScore, computerScore);
+}
+
+function selectWinner(playerScore, computerScore) {
   if (playerScore > computerScore) {
     console.log(
       "Game over! Player wins " + playerScore + " to " + computerScore + "!"
