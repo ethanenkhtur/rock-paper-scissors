@@ -1,0 +1,16 @@
+body {
+  width: 70%;
+  max-width: 800px;
+  min-width: min-content;
+  margin: 0 auto;
+}
+
+.start-game {
+  display: flex;
+  gap: 50px;
+}
+
+.start-game button {
+  align-self: center;
+  padding: 8px;
+}
